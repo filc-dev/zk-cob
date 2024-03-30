@@ -7,6 +7,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo run test"
   },
+  "peerDependencies": {
+    "o1js": "0.13.1"
+  },
+  "resolutions": {
+    "o1js": "0.13.1"
+  },
   "devDependencies": {
     "eslint": "^8.53.0",
     "prettier": "^3.1.0",

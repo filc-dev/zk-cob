@@ -1,5 +1,5 @@
 import { Balance } from "@proto-kit/library";
-import { Balances } from "./balances";
+import { Balances } from "./example-token";
 import { ModulesConfig } from "@proto-kit/common";
 
 export const modules = {
