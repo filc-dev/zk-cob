@@ -4,6 +4,7 @@ import { useWallet } from "../../hooks/use-wallet";
 import { Button } from "./ui/button";
 import { useToast } from "./ui/use-toast";
 import Link from "next/link";
+import { Logo } from "./logo";
 
 interface HeaderProps {}
 
@@ -33,6 +34,9 @@ export const Header = (props: HeaderProps) => {
   };
   return (
     <div className="w-full h-14 flex justify-between items-center sticky top-0 z-10 px-4 border-b bg-background">
+      <Link className="text-lg font-semibold text-primary" href="/">
+        <Logo width={90} />
+      </Link>
       {wallet ? (
         <Link href="/register">
           <Button variant="secondary">Create Pool</Button>

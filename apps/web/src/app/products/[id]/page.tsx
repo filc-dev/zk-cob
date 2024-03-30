@@ -17,7 +17,7 @@ const Product = () => {
         <h1 className="text-sm font-medium text-muted-foreground">
           Product Name
         </h1>
-        <p className="text-xl font-semibold">39 ETH</p>
+        <p className="text-xl font-semibold">39 MINA</p>
         <div className="flex flex-col gap-2 mt-2">
           <p className="text-sm text-muted-foreground">
             <span className="font-medium text-primary">1</span>/4 Peoples
